@@ -18,3 +18,5 @@ end
 # Project Gems
 
 gem "middleman-deploy"
+gem "compass"
+gem "haml"

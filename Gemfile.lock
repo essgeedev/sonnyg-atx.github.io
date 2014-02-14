@@ -104,6 +104,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
+  haml
   middleman (~> 3.1.6)
   middleman-deploy
   middleman-livereload (~> 3.1.0)
