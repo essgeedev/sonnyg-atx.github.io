@@ -16,7 +16,7 @@ platforms :mri_18 do
 end
 
 # Project Gems
-
-gem "middleman-deploy"
 gem "compass"
 gem "haml"
+gem "middleman-deploy"
+gem "sass"

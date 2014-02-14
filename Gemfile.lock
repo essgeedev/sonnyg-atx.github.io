@@ -110,4 +110,5 @@ DEPENDENCIES
   middleman-deploy
   middleman-livereload (~> 3.1.0)
   ruby18_source_location
+  sass
   wdm (~> 0.1.0)
