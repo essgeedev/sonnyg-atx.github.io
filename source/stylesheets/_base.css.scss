@@ -5,8 +5,8 @@
   box-sizing: border-box;
  }
 
-body, form {
-  background-color: #000;
+body {
+  background: #000 url('../../images/portfolio-bg.png') repeat;
   color: #fff;
   font-family: sans-serif;
   margin: 0;
@@ -21,3 +21,5 @@ a {
     color: #FFEDB5;
   }
 }
+
+p { margin: 0; }
