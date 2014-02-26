@@ -1,0 +1,132 @@
+/* apply a natural box layout model to all elements */
+/* line 3, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/_base.css.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 9, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/_base.css.scss */
+body {
+  background: black url("../../images/portfolio-bg.png") repeat;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+
+/* line 17, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/_base.css.scss */
+a {
+  color: #CFA82E;
+  text-decoration: none; }
+  /* line 21, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/_base.css.scss */
+  a:hover {
+    color: #FFEDB5; }
+
+/* line 26, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/_base.css.scss */
+p {
+  margin: 0; }
+
+/* line 1, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.l-constrained {
+  max-width: 1000px;
+  margin: auto; }
+
+/* line 6, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.l-constrained-tighter {
+  max-width: 960px; }
+
+/* line 10, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.l-1-column {
+  width: 25%; }
+
+/* line 11, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.l-2-columns {
+  width: 50%; }
+
+/* line 12, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.l-3-columns {
+  width: 75%; }
+
+/* line 13, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.l-4-columns {
+  width: 100%; }
+
+/* line 15, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/layout/_grid.css.scss */
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+/* line 1, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_image.css.scss */
+.image-home {
+  background: black url("../../images/portfolio-page-img.jpg") no-repeat;
+  background-size: 100%;
+  height: 960px;
+  /* specific to img */
+  margin-top: -1em;
+  position: relative;
+  z-index: -1; }
+
+/* line 1, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_navigation.css.scss */
+.navigation {
+  font-size: 1.5em;
+  margin-top: 2em;
+  text-transform: capitalize; }
+  /* line 5, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_navigation.css.scss */
+  .navigation > a {
+    padding-left: 1em; }
+  /* line 6, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_navigation.css.scss */
+  .navigation > a:first-child {
+    padding-left: 0; }
+
+/* line 9, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_navigation.css.scss */
+.navigation-main {
+  float: left; }
+
+/* line 10, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_navigation.css.scss */
+.navigation-social {
+  float: right; }
+
+/* line 1, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_splash.css.scss */
+.splash {
+  position: relative; }
+
+/* line 5, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_splash.css.scss */
+.splash > h3 {
+  color: #DFC574;
+  font-size: 4em; }
+
+/* line 10, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_splash.css.scss */
+.splash-line1 {
+  position: absolute;
+  top: 5%; }
+
+/* line 15, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_splash.css.scss */
+.splash-line2 {
+  position: absolute;
+  top: 10%; }
+
+/* line 20, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_splash.css.scss */
+.splash-line3 {
+  position: absolute;
+  left: 5%;
+  top: 15%; }
+
+/* line 26, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_splash.css.scss */
+.splash-line4 {
+  position: absolute;
+  left: 5%;
+  top: 20%; }
+
+/* line 1, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_footer.css.scss */
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2em 0;
+  width: 100%; }
+  /* line 5, /Users/sonnyg/github/sonnyg-atx.github.io/source/stylesheets/module/_footer.css.scss */
+  .footer > p {
+    color: #aaa;
+    font-size: 1.2em;
+    text-align: center; }
